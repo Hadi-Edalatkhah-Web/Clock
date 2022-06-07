@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.clock
+{
+    background-image: linear-gradient( 89.4deg,  rgb(28, 1, 1) 0.8%, rgb(4, 13, 38) 99.4% );;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 180px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    transition: all 0.5s;
+}
+
+#hour{
+    background: -webkit-linear-gradient(rgb(235, 46, 46), rgb(0, 123, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#minute
+{
+    background: -webkit-linear-gradient(rgb(237, 234, 234), rgb(255, 3, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+}
+#secound
+{
+    background: -webkit-linear-gradient(rgb(131, 255, 201), rgb(255, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.doublePoint{
+    background: -webkit-linear-gradient(rgb(123, 122, 122), rgb(255, 76, 76));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
